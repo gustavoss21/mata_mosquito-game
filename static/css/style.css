@@ -1,0 +1,68 @@
+#img-status {
+    width: 500px;
+    margin: auto;
+}
+
+/*pagina home */
+#btn {
+    background-color: rgba(255, 0, 0, 0.858);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 25%;
+    border: none;
+    width: 100px;
+}
+
+#select {
+    border-radius: 2px;
+    width: 200px;
+    padding: 5px;
+}
+
+#combo {
+    width: 201px;
+    margin: auto;
+}
+
+div#home {
+    margin: auto;
+    background: url('../imagens/bg.jpg');
+    min-height: 650px;
+}
+
+/* pagina home fim */
+/* compo de jogo */
+div#compo_jogo {
+    max-width: 1400px;
+    position: relative;
+    background: url('../imagens/bg.jpg');
+    background-size: cover;
+    margin: auto;
+    min-height: 690px;
+    cursor: url(../imagens/mata_mosca.png);
+}
+
+#mosquito {
+    position: absolute;
+}
+
+div#vidas {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+}
+
+#segundos {
+    font-size: 22px;
+    margin-left: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+/* compo de jogo fim */
+#fim_jogo {
+    width: 400px;
+    margin: auto;
+}
